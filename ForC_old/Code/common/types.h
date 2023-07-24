@@ -37,8 +37,8 @@
 #define uint16_t  unsigned short
 #define uint32_t  unsigned long
 #define uint64_t  unsigned long long
-#define int32_t   long
-#define int64_t   long long
+//#define int32_t   long
+//#define int64_t   long long
 
 #define UINT8_MAX   0xFF
 #define UINT16_MAX  0xFFFF
