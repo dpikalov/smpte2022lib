@@ -36,7 +36,7 @@ const sFecNx   FEC_NX_NULL  ={0, true}; //. Valeur par défaut de fecNx (~null)
 
 // Retourne un médiaNx à partir d'un médiaNo -----------------------------------
 //> Le numéro de séquence médiaNx équivalent
-inline sMediaNx sMediaNo_to_sMediaNx
+sMediaNx sMediaNo_to_sMediaNx
   (sMediaNo pMediaNo) //: Le médiaNo à convertir
 {
   return (sMediaNx) {pMediaNo, false};
@@ -44,14 +44,14 @@ inline sMediaNx sMediaNo_to_sMediaNx
 
 // Retourne un fecNx à partir d'un fecNo ---------------------------------------
 //> Le numéro de séquence fecNx équivalent
-inline sFecNx sFecNo_to_sFecNx
+sFecNx sFecNo_to_sFecNx
   (sFecNo pFecNo) //: Le fecNo à convertir
 {
   return (sFecNx) {pFecNo, false};
 }
 
 // Affiche le contenu d'un médiaNx ---------------------------------------------
-inline void sMediaNx_Print
+void sMediaNx_Print
   (sMediaNx pMediaNx) //: Le médiaNx à afficher
 {
   if (pMediaNx.null) { PRINT1 ("mediaNx {null} ")           }
@@ -59,7 +59,7 @@ inline void sMediaNx_Print
 }
 
 // Affiche le contenu d'un fecNx -----------------------------------------------
-inline void sFecNx_Print
+void sFecNx_Print
   (sFecNx pFecNx) //: Le fecNx à afficher
 {
   if (pFecNx.null) { PRINT1 ("fecNx {null} ")         }

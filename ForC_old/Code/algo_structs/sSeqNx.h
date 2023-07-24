@@ -59,10 +59,10 @@ extern const sFecNx   FEC_NX_NULL;   //. fecNx   à NULL
 
 // Déclaration des Fonctions ===================================================
 
-inline sMediaNx sMediaNo_to_sMediaNx (sMediaNo);
-inline sFecNx   sFecNo_to_sFecNx     (sFecNo);
+sMediaNx sMediaNo_to_sMediaNx (sMediaNo);
+sFecNx   sFecNo_to_sFecNx     (sFecNo);
 
-inline void sMediaNx_Print (sMediaNx);
-inline void sFecNx_Print   (sFecNx);
+void sMediaNx_Print (sMediaNx);
+void sFecNx_Print   (sFecNx);
 
 #endif
