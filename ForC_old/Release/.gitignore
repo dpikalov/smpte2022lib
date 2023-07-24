@@ -2,3 +2,5 @@ FecDecoder
 FecGenerator
 ErrorsGenerator
 libSmpte-2022-.a
+*.log
+*.out
